@@ -39,7 +39,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .padding(5)
                     .background(Color(red: 255/255, green: 183/255, blue: 37/255))
-                    .offset(x: 0, y: 87) // 調整標籤位置
+                    .offset(x: 0, y: 110) // 調整標籤位置
             }
             
             Spacer() // 填充剩餘空間
