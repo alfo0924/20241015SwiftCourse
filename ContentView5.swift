@@ -81,6 +81,7 @@ struct PricingView: View {
                 .font(.headline)
                 .foregroundColor(textColor)
         }
+        .frame(minWidth: 0,maxWidth: .infinity,minHeight: 100)
         .padding(40)
         .background(bgColor)
         .cornerRadius(10)
